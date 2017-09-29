@@ -1,0 +1,15 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Docker" type="docker">
+      <configuration>
+        <option name="certificatesPath" value="$USER_HOME$/.docker/machine/machines/default" />
+        <option name="machine" value="default" />
+      </configuration>
+    </remote-server>
+    <remote-server name="Docker2" type="docker">
+      <configuration>
+        <option name="certificatesPath" value="$USER_HOME$/.docker/machine/machines/default" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>
